@@ -1,0 +1,77 @@
+body {
+    background-color: #eeeeee;
+}
+
+.footer-background {
+    background-color: rgb(204, 199, 199);
+}
+
+@media (max-width: 991px) {
+    #heading {
+        padding-left: 50px;
+    }
+    #price-label { /* Renomeado */
+        margin-left: 70px;
+        padding-left: 110px;
+    }
+    #quantity-label { /* Renomeado */
+        padding-left: 48px;
+    }
+    #product-label { /* Renomeado */
+        padding-left: 40px;
+    }
+    #total-label { /* Renomeado */
+        padding-left: 54px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mobile {
+        font-size: 10px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 9px;
+    }
+    #mobile-font {
+        font-size: 11px;
+    }
+    #price-label, /* Renomeado */
+    #quantity-label, /* Renomeado */
+    #product-label, /* Renomeado */
+    #total-label { /* Renomeado */
+        font-weight: 700;
+    }
+    #price-label { /* Renomeado */
+        margin-left: -45px;
+        padding-left: 105px;
+    }
+    #quantity-label { /* Renomeado */
+        padding-left: 6px;
+    }
+    #product-label { /* Renomeado */
+        padding-left: 0px;
+    }
+    #total-label { /* Renomeado */
+        padding-left: 9px;
+    }
+    #image {
+        width: 60px;
+        height: 60px;
+    }
+    .col {
+        width: 100%;
+    }
+    #cart-container { /* Renomeado */
+        padding: 2%;
+        margin-left: 10px;
+    }
+    #cart-footer-details { /* Renomeado */
+        font-size: 12px;
+    }
+    #heading {
+        padding-top: 15px;
+    }
+}
